@@ -5,6 +5,10 @@
 >   底层实现了两种高效数据结构和buffer缓冲区，网络和io交给c实现框架底层
 >   上层实现复杂逻辑，使用协程和最小堆实现高效异步和并发编程
 
+### 依赖和注意事项
+>   LuaJIT2，Ubuntu18.04以上，lua-protobuf
+>   原生内存管理接口可在core层替换为jemalloc更高效的内存管理接口
+
 ### 安装
 ```shell
 cd GameNet-master
